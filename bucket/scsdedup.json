@@ -40,11 +40,11 @@
                 "url": "https://github.com/shuyingegit/scsdedup/releases/download/v$version/scsdedup-$version-setup-win64.exe",
                 "hash": {
                     "url": "$url.digest"
-                },
-                "installer": {
-                    "file": "scsdedup-$version-setup-win64.exe"
                 }
             }
+        },
+        "installer": {
+            "file": "scsdedup-$version-setup-win64.exe"
         }
     }
 }
